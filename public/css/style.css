@@ -1,0 +1,107 @@
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2%;
+}
+.title{
+    color: black;
+}
+p{
+    margin: 0;
+}
+
+h2, p{
+    margin: 0;
+}
+.search-result-container{
+    overflow-y: scroll;
+    height: 95%;
+    position: relative;
+    top: 5%;
+}
+.card{
+    width: 85%;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3% 0 3% 0;
+    margin-bottom: 3%;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #6f006f;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.profil{
+    border-radius: 100px;
+    width: 10%;
+}
+
+.logout-button{
+    background: none;
+    border: none;
+    cursor: pointer
+}
+
+#d-flex-logout{
+    display: flex;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2%;
+}
+p{
+    margin: 0;
+}
+h2, p{
+    margin: 0;
+}
+.search-result-container{
+    overflow-y: scroll;
+    height: 95%;
+    position: relative;
+    top: 5%;
+}
+.card{
+    width: 85%;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3% 0 3% 0;
+    margin-bottom: 3%;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+    /* Track */
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+    /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #6f006f;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.profil{
+    border-radius: 100px;
+    width: 10%;
+}
+

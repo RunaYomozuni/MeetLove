@@ -1,0 +1,97 @@
+/* La couleur du body permet d'avoir le dégrader et le fond du main */
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(296.82deg, #580755 0, rgba(106, 33, 103, 0) 150%) no-repeat;
+}
+main{
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+#myModal{
+    margin: 15px auto;
+}
+textarea{
+    resize: none;
+}
+h2{
+    color: white;
+    padding: 20px;
+    font-size: 40px!important;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav{
+    background-color: darkgray;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+}
+#background{
+    width: 30rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+#accueil{
+    margin: 15px auto;
+}
+/* Le contenant principal */
+header{
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    width: 2rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    border: 2px solid white;
+    background: linear-gradient(114.98deg, rgba(255, 255, 255, 0.48) 0.41%, rgba(255, 255, 255, 0.12) 100%);
+    backdrop-filter: blur(50px);
+    /* Note: backdrop-filter has minimal browser support */
+    width: 32rem;
+    margin: auto;
+    padding: 20px 0;
+}
+/* Les deux dégrader sur les coter */
+.linear{
+    background: linear-gradient(114.98deg, rgba(255, 255, 255, 0.48) 0.41%, rgba(255, 255, 255, 0.12) 100%);
+    backdrop-filter: blur(50px);
+    width: 30vw;
+}
+/* La zone du milieu qui contient l'information */
+.conteneur{
+    display: inline-block;
+    width: 40vw;
+    height: 100vh;
+}
+/* Le titre meet&love */
+h1{
+    color: white;
+    text-transform: uppercase;
+    margin: 3vw;
+    text-align: center;
+    font-size: 4rem;
+}
+/* Le conteneur du contenu qui vas etre ajouter par le php */
+.content{
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-icon{
+    display: flex;
+    justify-content: center;
+}

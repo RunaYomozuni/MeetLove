@@ -1,0 +1,211 @@
+#h2Register, #h2login{
+    color: white;
+    margin: 1rem;
+    padding-bottom: 0;
+    font-size: 2rem;
+}
+#formRegister{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input::placeholder, #bio::placeholder{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.5;
+    color: black;
+}
+#Localisation{
+    width: 21rem!important;
+}
+fieldset{
+    display: flex;
+    border: transparent;
+    margin: 15px auto 0 auto;
+    flex-direction: column;
+    padding-bottom: 0;
+}
+#divNaissance{
+    border: transparent;
+    background-color: white;
+    padding: 10px 0;
+    width: 25rem;
+    text-align: center;
+    margin: 10px;
+    border-radius: 30px;
+}
+#dateNaissance{
+    background: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    font-size: 20px;
+    width: 7em;
+    border: transparent;
+}
+form input:not(#photo, #dateNaissance){
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 0;
+    width: 25rem;
+    border-radius: 30px;
+    border: transparent;
+}
+#photo{
+    margin: 15px 0;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+}
+#inputDiv{
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+#selectFieldset{
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+.red{
+    background: red;
+    padding: 15px 13px;
+    font-size: 22px;
+    border-radius: 30px;
+    color: white;
+    margin: 0;
+}
+#samePassword{
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+#interet, #sexe, #orientation{
+    margin: 15px;
+    padding: 15px!important;
+    border-radius: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 20px;
+    border: transparent;
+}
+#interet option{
+    font-weight: bold;
+}
+.btnConfirm{
+    background-color: #2A2727;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    border-radius: 30px;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 16rem;
+    padding: 7px;
+    cursor: pointer;
+}
+#photoUser{
+    border: 0;
+    font-size: 16px;
+    margin: 15px auto;
+}
+#imageUser{
+    color: white;
+    border: 2px solid;
+    border-radius: 15px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+#imageUser label{
+    line-height: 2;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.btnConfirm p{
+    font-size: 22px;
+    margin: 0;
+}
+#arrowRight{
+    width: 50px;
+}
+.block{
+    display: block;
+}
+.none{
+    display: none;
+}
+#bio{
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 15px;
+}
+#bio::placeholder{
+    text-align: justify;
+}
+
+#prenom{
+    margin: 0 auto;
+}
+#loginP{
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+.forgot{
+    color: white;
+    text-decoration: none;
+    margin: 10px 0 0 95px;
+    display: inline-block;
+}
+#loginP a{
+    text-decoration: none;
+}
+#ignore{
+    text-decoration: none;
+    text-align: end;
+    width: 22rem;
+    color: black;
+    font-weight: bold;
+}
+/* pour notre modal */
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+}
+
+#btn-oui, #btn-non {
+    margin-right: 10px;
+}
+
+#btn-oui:hover, #btn-non:hover {
+    cursor: pointer;
+}
+.div-error-flex{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,28 @@
+.infoBlock label{
+    display: block;
+    text-align: center;
+}
+.infoBlock input[type=file]{
+    border: none;
+    border-radius: 0;
+}
+.infoBlock label::after{
+    content: " :";
+}
+#profilChangement{
+    display: block;
+    margin: 10px auto;
+    height: 100px;
+    width: 100px;
+}
+.textarea{
+    padding: 10px;
+    margin: 10px auto;
+}
+.field{
+    margin-top: 15px;
+}
+label{
+    font-size: 17px;
+    font-weight: bold;
+}
